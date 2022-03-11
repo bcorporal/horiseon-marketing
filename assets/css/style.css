@@ -1,4 +1,4 @@
-/**** horiseon page styling only ****/
+/**** Horiseon page css styling only ****/
 
 * {
     box-sizing: border-box;
@@ -19,8 +19,6 @@ p {
     font-size: 16px;
 }
 
-
-
 /* Header area */
 
 header {
@@ -36,10 +34,10 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #ffffff;
+    color: #c9c9c9;
 }
 
-/* Navigation bar */
+/* Top Navigation bar */
 
 header nav {  
     padding-top: 15px;
@@ -65,7 +63,7 @@ header nav ul li {
     background: url("../images/digital-marketing-meeting.jpg") center / cover;
 }
 
-/* Main content */
+/* Main Page content */
 
 .content {
     width: 75%;
@@ -101,7 +99,7 @@ header nav ul li {
     font-size: 36px;
 }
 
-/* aside content that has the benefits */
+/* aside content that has describes the benefits Horiseon offers */
 
 .benefits {
     margin-right: 20px;
@@ -113,13 +111,15 @@ header nav ul li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* grouped together benefit elements */
 
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 } 
+/* grouped together these benefit elements */
 
-.benefit-lead h3, .benefit-brand h3,  {
+.benefit-lead h3, .benefit-brand h3, {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -130,20 +130,13 @@ header nav ul li {
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Footer */
-
 
 .footer {
     padding: 30px;
